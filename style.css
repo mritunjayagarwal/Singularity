@@ -1,0 +1,25 @@
+html, body{
+    background: #000;
+    background: url('./img/galactic.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.navbar{
+    padding: 40px 10%;
+}
+
+.navbar a{
+    color: #fff;
+    text-decoration:none !important;
+}
+
+.navbar a:hover{
+    color: #FFA500
+}
+
+.navbar-brand{
+    font-weight: 600
+}

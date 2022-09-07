@@ -8,6 +8,8 @@ html, body{
     /* -webkit-font-smoothing: antialiased;
     color: #fff; */
     height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -190,7 +192,7 @@ ul li{
 }
 
 .owl-carousel.owl-drag .owl-item.center .item img{
-    transform: scale(1.3)
+    transform: scale(1.5)
 }
 
   .owl-item.center { display: block }

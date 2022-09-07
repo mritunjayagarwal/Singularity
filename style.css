@@ -16,7 +16,7 @@ html, body{
     background-repeat: no-repeat;
 } */
 
-h1, .fam-text{
+h1, h2, .fam-text{
     font-family: gameCube;
 }
 

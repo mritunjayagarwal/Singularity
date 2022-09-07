@@ -31,61 +31,6 @@
     background-attachment: fixed;
   }
   
-  h1 {
-    font-weight: 300;
-    font-size: 2.5em;
-    text-transform: uppercase;
-    line-height: 1.6em;
-    letter-spacing: 0.1em;
-  }
-  
-  a, a:visited {
-    text-decoration: none;
-    color: white;
-    opacity: 0.7;
-  }
-  a:hover, a:visited:hover {
-    opacity: 1;
-  }
-  a.icon, a:visited.icon {
-    margin-right: 2px;
-    padding: 3px;
-  }
-  
-  .description {
-    padding: 30px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 25%;
-    z-index: 999;
-  }
-  .description p {
-    font-size: 0.9em;
-  }
-  .description p + p {
-    margin-top: 20px;
-  }
-  .description p.author {
-    font-size: 0.7em;
-  }
-  .description p.author .fa-heart {
-    color: #860014;
-  }
-  
-  hr {
-    margin: 26px 0;
-    border: 0;
-    border-top: 1px solid white;
-    background: transparent;
-    width: 25%;
-    opacity: 0.1;
-  }
-  
-  code {
-    color: #ae94c0;
-    font-size: 0.9em;
-  }
   
   .solar-syst {
     margin: 0 auto;

@@ -9,8 +9,24 @@ html, body{
     height: 100%;
 }
 
+/* section{
+    background: url('./img/space.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
 h1, .fam-text{
     font-family: gameCube;
+}
+
+.fam-text{
+    color: #FFA500
+}
+
+.point-p{
+    font-size: 12px;
+    color: #fff;
 }
 
 .navbar{
@@ -59,10 +75,10 @@ section{
     color: #d3d3d3
 }
 
-.item:nth-child(1) .flip-card .flip-card-inner{
+.itemm:nth-child(1) .flip-card .flip-card-inner, .item:nth-child(1) .flip-card .flip-card-inner{
     transform: rotateY(30deg);
 }
-.item:nth-child(4) .flip-card .flip-card-inner{
+.itemm:nth-child(4) .flip-card .flip-card-inner, .item:nth-child(4) .flip-card .flip-card-inner{
     transform: rotateY(-30deg);
 }
 
@@ -71,7 +87,6 @@ button{
     -webkit-transform: skewX(-20deg);
     transform: skewX(-20deg);
     position: relative;
-    padding: 10px 0
 }
 
 .slgy{
@@ -129,3 +144,48 @@ ul li{
       top: -40px;
     }
   }
+
+
+.point{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: right;
+    /* border: 2px solid #007bff;
+    width: 150px; */
+}
+
+.point1{
+    top: 600px;
+    left: 10%;
+}
+.point2{
+    top: 500px;
+    left: 320px;
+}
+.point3{
+    top: 450px;
+    left: 500px;
+}
+.point4{
+    top: 450px;
+    left: 700px;
+}
+.point5{
+    top: 500px;
+    left: 900px;
+}
+.point6{
+    top: 550px;
+    left: 1100px;
+}
+
+.owl-carousel.owl-drag .owl-item.center .item{
+    transform: rotateY(0deg);
+}
+
+.owl-carousel.owl-drag .owl-item.center .item img{
+    transform: scale(1.3)
+}
+
+  .owl-item.center { display: block }

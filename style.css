@@ -82,10 +82,10 @@ section{
     color: #d3d3d3
 }
 
-.itemm:nth-child(1) .flip-card .flip-card-inner, .item:nth-child(1) .flip-card .flip-card-inner{
+.itemm:nth-child(1) .flip-card .flip-card-inner{
     transform: rotateY(30deg);
 }
-.itemm:nth-child(4) .flip-card .flip-card-inner, .item:nth-child(4) .flip-card .flip-card-inner{
+.itemm:nth-child(4) .flip-card .flip-card-inner{
     transform: rotateY(-30deg);
 }
 
@@ -162,37 +162,77 @@ ul li{
     width: 150px; */
 }
 
+.imgg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: right;
+    width: 300px;
+    height: auto;
+}
+
+.img3{
+    width: 165px;
+    height: auto;
+}
+
+.img1{
+    top: 560px;
+    left: 0px;
+}
+.img2{
+    top: 440px;
+    left: 220px;
+}
+.img3{
+    top: 480px;
+    left: 580px;
+}
+.img4{
+    top: 430px;
+    left: 800px;
+}
+.img5{
+    top: 520px;
+    left: 1000px;
+}
+
 .point1{
-    top: 600px;
-    left: 10%;
+    top: 580px;
+    left: 70px;
 }
 .point2{
-    top: 500px;
-    left: 320px;
+    top: 420px;
+    left: 290px;
 }
 .point3{
-    top: 450px;
-    left: 500px;
+    top: 380px;
+    left: 600px;
 }
 .point4{
-    top: 450px;
-    left: 700px;
+    top: 420px;
+    left: 920px;
 }
 .point5{
     top: 500px;
-    left: 900px;
+    left: 1130px;
 }
 .point6{
     top: 550px;
     left: 1100px;
 }
 
-.owl-carousel.owl-drag .owl-item.center .item{
+/* .owl-carousel.owl-drag .owl-item.center .item{
     transform: rotateY(0deg);
-}
+} */
 
 .owl-carousel.owl-drag .owl-item.center .item img{
     transform: scale(1.5)
 }
 
   .owl-item.center { display: block }
+
+  .owl-carousel .owl-stage-outer {
+    /* override */
+    overflow: initial;
+}

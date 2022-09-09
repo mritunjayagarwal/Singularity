@@ -85,6 +85,16 @@ section{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     color: #d3d3d3;
     filter: brightness(50%);
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #FFA500,
+    0 0 82px #FFA500,
+    0 0 92px #FFA500,
+    0 0 102px #FFA500,
+    0 0 151px #FFA500;
+
 }
 
 .flip-card-back{

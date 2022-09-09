@@ -12,10 +12,10 @@ html, body{
     overflow-x: hidden;
 }
 
-.container{
-    min-width: 80%;
+/* .container{
+    min-width: 70%;
     margin: 0 auto;
-}
+} */
 
 main{
     background: radial-gradient(ellipse at bottom, #1C2837 0%, #050608 100%);

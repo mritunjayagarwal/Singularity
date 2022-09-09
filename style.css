@@ -12,6 +12,10 @@ html, body{
     overflow-x: hidden;
 }
 
+.container{
+    min-width: 80%;
+    margin: 0 auto;
+}
 
 main{
     background: radial-gradient(ellipse at bottom, #1C2837 0%, #050608 100%);
@@ -79,7 +83,24 @@ section{
     transition: transform 0.6s;
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    color: #d3d3d3
+    color: #d3d3d3;
+    filter: grayscale(90%);
+}
+
+.flip-card-back{
+    background: #000;
+    color: #fff;
+    margin-top: -130px;
+    display: none;
+}
+
+.flip-card:hover .flip-card-back{
+    display: block;
+    transition: 2s ease-in;
+}
+
+.flip-card:hover .flip-card-inner{
+    filter: grayscale(0)
 }
 
 .itemm:nth-child(1) .flip-card .flip-card-inner{
@@ -177,45 +198,45 @@ ul li{
 }
 
 .img1{
-    top: 560px;
-    left: 0px;
+    top: 600px;
+    left: 70px;
 }
 .img2{
-    top: 440px;
-    left: 220px;
+    top: 400px;
+    left: 320px;
 }
 .img3{
-    top: 480px;
-    left: 580px;
+    top: 400px;
+    left: 680px;
 }
 .img4{
-    top: 430px;
-    left: 800px;
+    top: 325px;
+    left: 900px;
 }
 .img5{
-    top: 520px;
-    left: 1000px;
+    top: 420px;
+    left: 1200px;
 }
 
 .point1{
-    top: 580px;
-    left: 70px;
+    top: 650px;
+    left: 140px;
 }
 .point2{
-    top: 420px;
-    left: 290px;
+    top: 395px;
+    left: 370px;
 }
 .point3{
-    top: 380px;
-    left: 600px;
+    top: 300px;
+    left: 700px;
 }
 .point4{
-    top: 420px;
-    left: 920px;
+    top: 320px;
+    left: 1020px;
 }
 .point5{
-    top: 500px;
-    left: 1130px;
+    top: 450px;
+    left: 1300px;
 }
 .point6{
     top: 550px;

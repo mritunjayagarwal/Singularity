@@ -1,3 +1,3 @@
-<svg width="190" height="160" style="display: block;" xmlns="http://www.w3.org/2000/svg">
+<svg width="190" height="160" style="display: block;" transform = "rotate(-10)" xmlns="http://www.w3.org/2000/svg">
   <path d="M 10 80 Q 95 10 180 80" stroke="white" fill="transparent"/>
 </svg>

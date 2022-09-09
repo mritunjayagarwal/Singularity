@@ -105,6 +105,10 @@ section{
     display: none;
 }
 
+.item .flip-card-back{
+    display: none;
+}
+
 .itemm .flip-card:hover .flip-card-back{
     display: block;
     transition: 2s ease-in;
@@ -278,6 +282,9 @@ ul li{
 
 .owl-carousel.owl-drag .owl-item.center .item img{
     transform: scale(1.5)
+}
+.owl-carousel.owl-drag .owl-item.center .item .flip-card-back{
+    display: block;
 }
 
   .owl-item.center { display: block }

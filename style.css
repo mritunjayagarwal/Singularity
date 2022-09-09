@@ -326,5 +326,67 @@ ul li{
 
   .owl-carousel .owl-stage-outer {
     /* override */
-    overflow: initial;
+    overflow:initial;
 }
+
+.head-title{
+    font-size: 60px;text-shadow: 2px 2px #000;
+}
+
+.medal-div{
+    position: absolute; top: 280px; width: 80%;left: 10%; right: 10%
+}
+
+.medal-div h2{
+    font-size: 22px;
+}
+
+.medal-supply{
+    position: absolute; bottom: 0px; width: 80%;left: 10%; right: 10%
+}
+
+
+@media only screen and (max-width: 667px) {
+
+    h1{
+        font-size: 20px;
+    }
+
+    .itemm{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .itemm:nth-child(1) .flip-card .flip-card-inner{
+        transform: rotateY(0deg);
+    }
+    .itemm:nth-child(4) .flip-card .flip-card-inner{
+        transform: rotateY(-0deg);
+    }
+
+    .head-title{
+        font-size: 30px
+    }
+
+    .medal-div{
+        top: 180px
+    }
+
+    .medal-div h2{
+        font-size: 15px;
+    }
+    .medal-div p{
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .medal-supply{
+        top: 320px;
+        font-size: 12px;
+    }
+
+    .medal-supply1{
+        top: 330px;
+    }
+  }

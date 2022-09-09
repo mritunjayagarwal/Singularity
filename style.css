@@ -83,9 +83,9 @@ section{
     transition: transform 0.6s;
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border: 5px solid #0F3FA4;
+    border: 5px solid #007bff;
     color: #d3d3d3;
-    filter: brightness(70%);
+    filter: brightness(50%);
     text-shadow:
     0 0 7px #0F3FA4,
     0 0 10px #0F3FA4,

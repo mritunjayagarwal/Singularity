@@ -90,18 +90,18 @@ section{
     0 0 7px #fff,
     0 0 10px #fff,
     0 0 21px #fff,
-    0 0 42px #FFA500,
-    0 0 82px #FFA500,
-    0 0 92px #FFA500,
-    0 0 102px #FFA500,
-    0 0 151px #FFA500;
+    0 0 42px #0F3FA4,
+    0 0 82px #0F3FA4,
+    0 0 92px #0F3FA4,
+    0 0 102px #0F3FA4,
+    0 0 151px #0F3FA4;
 
 }
 
 .flip-card-back{
     background: #000;
     color: #fff;
-    margin-top: -130px;
+    margin-top: -135px;
     display: none;
 }
 

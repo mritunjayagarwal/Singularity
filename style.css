@@ -98,14 +98,23 @@ section{
 
 }
 
+.item .flip-card-inner:hover {
+    text-shadow:
+    0 0 7px #0F3FA4,
+    0 0 10px #0F3FA4,
+    0 0 21px #0F3FA4,
+    0 0 42px #0F3FA4,
+    0 0 82px #0F3FA4,
+    0 0 92px #0F3FA4,
+    0 0 102px #0F3FA4,
+    0 0 151px #0F3FA4;
+
+}
+
 .itemm .flip-card-back{
     background: #000;
     color: #fff;
     margin-top: -135px;
-    display: none;
-}
-
-.item .flip-card-back{
     display: none;
 }
 
@@ -282,9 +291,6 @@ ul li{
 
 .owl-carousel.owl-drag .owl-item.center .item img{
     transform: scale(1.5)
-}
-.owl-carousel.owl-drag .owl-item.center .item .flip-card-back{
-    display: block;
 }
 
   .owl-item.center { display: block }

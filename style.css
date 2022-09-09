@@ -84,7 +84,7 @@ section{
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     color: #d3d3d3;
-    filter: grayscale(90%);
+    filter: brightness(50%);
 }
 
 .flip-card-back{
@@ -100,7 +100,7 @@ section{
 }
 
 .flip-card:hover .flip-card-inner{
-    filter: grayscale(0)
+    filter: brightness(100%)
 }
 
 .itemm:nth-child(1) .flip-card .flip-card-inner{

@@ -349,6 +349,10 @@ ul li{
     position: absolute; bottom: 0px; width: 80%;left: 10%; right: 10%
 }
 
+.medal-parent{
+    position: relative; height: 500px;
+}
+
 
 @media only screen and (max-width: 667px) {
 
@@ -392,5 +396,23 @@ ul li{
 
     .medal-supply1{
         top: 330px;
+    }
+
+    .medal-parent{
+        height: 350px;
+    }
+
+    .navbar-collapse{
+        background: #fff;
+        padding: 0 10px;
+        width: 100%;
+    }
+
+    .navbar-nav li a{
+        color: #000;
+        font-weight: 600;
+    }
+    .navbar-nav li{
+        margin: 10px 0;
     }
   }

@@ -397,10 +397,20 @@ ul li{
     top: 38px;
     left: 0;
     right: 0;
-    width: 75px;
-    margin: 0 auto;
+    width: 95px;
+    margin: 0 auto 40px auto;
     border-radius: 4px;
     padding: 2px 4px;
+    font-weight: 700;
+    text-shadow:
+    0 0 7px #0F3FA4,
+    0 0 10px #0F3FA4,
+    0 0 21px #0F3FA4,
+    0 0 42px #0F3FA4,
+    0 0 82px #0F3FA4,
+    0 0 92px #0F3FA4,
+    0 0 102px #0F3FA4,
+    0 0 151px #0F3FA4;
 }
 @media (min-width: 1140px) {
     .hori-timeline .events .event-list {

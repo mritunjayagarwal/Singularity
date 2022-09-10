@@ -17,6 +17,10 @@ html, body{
     margin: 0 auto;
 } */
 
+.btn{
+    background: #FFA500
+}
+
 main{
     background: radial-gradient(ellipse at bottom, #1C2837 0%, #050608 100%);
 }
@@ -47,6 +51,14 @@ h1, h2, .fam-text{
 .navbar a{
     color: #fff;
     text-decoration:none !important;
+}
+
+.galactic-btn{
+    background: #FFA500;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    padding: 3px 0;
 }
 
 .navbar a:hover{
@@ -463,7 +475,8 @@ ul li{
     }
 
     .head-title{
-        font-size: 30px
+        font-size: 30px;
+        margin-top: -80px
     }
 
     .medal-div{

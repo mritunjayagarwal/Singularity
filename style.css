@@ -18,7 +18,8 @@ html, body{
 } */
 
 .btn{
-    background: #FFA500
+    background: #FFA500;
+    color: #fff;
 }
 
 main{
@@ -56,7 +57,7 @@ h1, h2, .fam-text{
 .galactic-btn{
     background: #FFA500;
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
     border: none;
     padding: 3px 0;
 }

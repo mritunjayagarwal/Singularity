@@ -399,8 +399,9 @@ ul li{
     right: 0;
     width: 95px;
     margin: 0 auto 40px auto;
+    color: #fff;
     border-radius: 4px;
-    padding: 2px 4px;
+    padding: 5px 4px;
     font-weight: 700;
     text-shadow:
     0 0 7px #0F3FA4,

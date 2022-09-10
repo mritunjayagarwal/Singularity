@@ -353,13 +353,26 @@ ul li{
     position: relative; height: 500px;
 }
 
-.roadmap-head{
-    position: absolute;top: 50px;
+/* .roadmap-head{
+    position: absolute;
+    top: 50px;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
     text-align: center;
+} */
+
+.roadmap-points{
+    color: #d3d3d3
+}
+
+.roadmap-lg-img{
+    display: block;
+}
+
+.roadmap-sm-block{
+    display: none;
 }
 
 .hori-timeline .events {
@@ -483,5 +496,13 @@ ul li{
 
     .roadmap-head{
         top: 50px;
+    }
+
+    .roadmap-lg-img{
+        display: none;
+    }
+
+    .roadmap-sm-block{
+        display: block;
     }
   }

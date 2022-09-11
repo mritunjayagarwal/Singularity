@@ -3,13 +3,15 @@
     src: url(GameCube-1.ttf);
   }
   
+html{
+    overflow-x: hidden;
+}
 
 html, body{
     /* -webkit-font-smoothing: antialiased;
     color: #fff; */
-    height: 100%;
     max-width: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     scroll-behavior: smooth;
 }
 

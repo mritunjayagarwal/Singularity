@@ -4,19 +4,31 @@
   }
   
 
+html{
+    overflow-x: hidden;
+}
+
 html, body{
     /* -webkit-font-smoothing: antialiased;
     color: #fff; */
     height: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
+    max-width: 100% !important;
+    /* overflow-x: hidden; */
     scroll-behavior: smooth;
+}
+
+.battle{
+    overflow-x: hidden;
 }
 
 /* .container{
     min-width: 70%;
     margin: 0 auto;
 } */
+
+head{
+    overflow-x: hidden;
+}
 
 .btn{
     background: #FFA500;

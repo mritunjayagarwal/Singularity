@@ -16,7 +16,7 @@
 </head>
 <body>
     <head>
-        <nav class="navbar navbar-expand-lg fixed-top py-3">
+        <nav class="navbar navbar-expand-lg fixed-top py-3 m-0" data-aos = "fade-down" data-aos-delay = "800">
             <!-- Container wrapper -->
               <!-- Navbar brand -->
               <a class="navbar-brand me-2" href="#">
@@ -220,7 +220,7 @@
       </div>
 
       <div style = "background: url(./img/p2e.png) no-repeat; background-position: center;background-size: cover;">
-      <section class = "battle">
+      <section>
         <div class = "container">
           <h1 class = "text-center text-white mb-5">NFT BATTLESHIPS</h1>
           <p class = "text-center mb-5" style = "color: #d3d3d3">Pick your favourite battleship from our fleet, engage in a ruthless battle with the intruders and defeat them.</p>
@@ -552,10 +552,10 @@
 });
 
 $(window).scroll(function () {
-if ($(window).scrollTop() >= 100) {
-$('.navbar').css('background', '#000004');
+if ($(window).scrollTop() >= 50) {
+$('.navbar').css('background','#121212');
 } else {
-$('.navbar').css('background', 'transparent');
+$('.navbar').css('background','transparent');
 }
 });
     </script>

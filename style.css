@@ -17,8 +17,12 @@ html, body{
     scroll-behavior: smooth;
 }
 
+.f-ul li a{
+    color: #fff
+}
+
 .battle{
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 /* .container{
